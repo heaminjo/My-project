@@ -112,15 +112,15 @@
 				<jsp:include page="aside.jsp"></jsp:include>
 	            <section class="section01">
 	                <div class="title">
-	                    <h2>∞≥¿Œ¡§∫∏</h2>
+	                    <h2>Í∞úÏù∏Ï†ïÎ≥¥</h2>
 	                </div>
 	                <table id="user_Data_Table">
 	                    <tr>
 	                        <th>
-	                            <p>¿Ã∏ß</p>
+	                            <p>Ïù¥Î¶Ñ</p>
 	                        </th>
 	                        <td>
-	                            <p>¡∂«ÿπŒ</p>
+	                            <p>Ï°∞Ìï¥ÎØº</p>
 	                        </td>
 	                        <td>
 	                            <img class="edit_Img" src="https://img.icons8.com/?size=100&id=YaKi83X4UXu5&format=png&color=000000" alt="">
@@ -128,10 +128,10 @@
 	                    </tr>
 	                    <tr>
 	                        <th>
-	                            <p>¡÷º“</p>
+	                            <p>Ï£ºÏÜå</p>
 	                        </th>
 	                        <td>
-	                            <p>¥Î«—πŒ±π</p>
+	                            <p>ÎåÄÌïúÎØºÍµ≠</p>
 	                        </td>
 	                        <td>
 	                            <img class="edit_Img" src="https://img.icons8.com/?size=100&id=YaKi83X4UXu5&format=png&color=000000" alt="">
@@ -139,7 +139,7 @@
 	                    </tr>
 	                    <tr>
 	                        <th>
-	                            <p>ª˝≥‚ø˘¿œ</p>
+	                            <p>ÏÉùÎÖÑÏõîÏùº</p>
 	                        </th>
 	                        <td>
 	                            <p>20020101</p>
@@ -150,7 +150,7 @@
 	                    </tr>
 	                    <tr>
 	                        <th>
-	                            <p>»ﬁ¥Î∆˘</p>
+	                            <p>Ìú¥ÎåÄÌè∞</p>
 	                        </th>
 	                        <td>
 	                            <p>01012345678</p>
@@ -161,7 +161,7 @@
 	                    </tr>
 	                    <tr>
 	                        <th>
-	                            <p>¿Ã∏ﬁ¿œ</p>
+	                            <p>Ïù¥Î©îÏùº</p>
 	                        </th>
 	                        <td>
 	                            <p>honggildong@email.com</p>
@@ -176,18 +176,18 @@
 	                <ul class="profile_Box">
 		                <li id="profile_Img">
 		                    <div id="image_Box">
-		                        <img src="https://m.skyaqua7.shop/web/product/medium/202203/4f3b9057a3317c43381bb9da7a1b8cc2.png" alt="«¡∑Œ«  ªÁ¡¯">
+		                        <img src="https://m.skyaqua7.shop/web/product/medium/202203/4f3b9057a3317c43381bb9da7a1b8cc2.png" alt="ÌîÑÎ°úÌïÑ ÏÇ¨ÏßÑ">
 		                    </div>
 		                </li>
 	                    <li id="user_NickName">
-		                    <p>æ»Ω√</p>
+		                    <p>ÏïàÏãú</p>
 		                </li>
 		                <li id="user_Follow">
-		                    <p id="followers">∆»∑Œøˆ </p>
-		                    <p id="following">∆»∑Œ¿Æ</p>
+		                    <p id="followers">ÌåîÎ°úÏõå </p>
+		                    <p id="following">ÌåîÎ°úÏúô</p>
 		                </li>
 		                <li id ="user_Introduction">
-		                    <p>--------«—¡Ÿ º“∞≥---------</p>
+		                    <p>--------ÌïúÏ§Ñ ÏÜåÍ∞ú---------</p>
 		                </li>
 		            </ul>
 	            </section>
