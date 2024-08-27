@@ -27,38 +27,7 @@
         padding-top: 50px;
         gap: 30px;
     }
-    aside{
-        width: 250px;
-        height: 269px;
-        border: 1px solid #000;
-    }
-    .aside_Block{
-        display: flex;
-        flex-direction: column;
-    }
-    #block01_Title{
-        width: 100%;
-        height: 50px;
-        text-align: center;
-        line-height: 50px;
-        background-color: #bbb;
-    }
-    #block02_User_Data ul,
-    #block03_User_Service ul{
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        font-size: 13px;
-        border-bottom: 1px solid #000;
-        padding: 20px 0 20px 0;
-    }
-    #block02_User_Data ul li,
-    #block03_User_Service ul li
-    {
-        padding-left: 10px;
-    }
-    
-    <%--∏ﬁ¿Œ --%>
+    <%--Î©îÏù∏ --%>
     
     main{
         width: 700px;
@@ -110,7 +79,7 @@
         text-align: center;
     }
 
-    <%-- form ≈¬±◊ input--%>
+    <%-- form ÌÉúÍ∑∏ input--%>
     input[type="file"]{
     	display: none;
     }
@@ -154,61 +123,29 @@
         	</li>
         	<li>
         	<div class="main_Box">
-	        	<aside>
-	            <ul class="aside_Block">
-	                <li id="block01_Title">
-	                    <h3>∏∂¿Ã∆‰¿Ã¡ˆ</h3>
-	                </li>
-	                <li id="block02_User_Data">
-	                    <ul>
-	                        <li>
-	                            <a href="">«¡∑Œ«  ºˆ¡§</a>
-	                        </li>
-	                        <li>
-	                            <a href="">∞≥¿Œ¡§∫∏ ºˆ¡§</a>
-	                        </li>
-	                        <li>
-	                            <a href="">≥ª ∞‘Ω√π∞ ∏Ò∑œ</a>
-	                        </li>
-	                        <li>
-	                            <a href="">∫œ∏∂≈©</a>
-	                        </li>
-	                    </ul>
-	                </li>
-	                <li id="block03_User_Service">
-	                    <ul>
-	                        <li>
-	                            <a href="">∫Òπ–π¯»£ ∫Ø∞Ê</a>
-	                        </li>
-	                        <li>
-	                            <a href="">∑Œ±◊æ∆øÙ</a>
-	                        </li>
-	                    </ul>
-	                </li>
-	            </ul>
-	        </aside>
+	        	<jsp:include page="aside.jsp"></jsp:include>
 	        <main>
 	        	<form method="get">
 		            <ul class="profile_Box">
 		                <li id="profile_Img">
 		                    <div id="image_Box">
-		                        <img src="https://m.skyaqua7.shop/web/product/medium/202203/4f3b9057a3317c43381bb9da7a1b8cc2.png" alt="«¡∑Œ«  ªÁ¡¯">
+		                        <img src="https://m.skyaqua7.shop/web/product/medium/202203/4f3b9057a3317c43381bb9da7a1b8cc2.png" alt="ÌîÑÎ°úÌïÑ ÏÇ¨ÏßÑ">
 		                    </div>
 		                    <input type="file" accept="image/*" id="input_Image" >
-		                    <button id="image_Btn" onclick="upload()">¿ÃπÃ¡ˆ ∫Ø∞Ê</button>
+		                    <button id="image_Btn" onclick="upload()">Ïù¥ÎØ∏ÏßÄ Î≥ÄÍ≤Ω</button>
 		                </li>
 		                <li id="user_NickName">
 		                    <input type="text" id="input_NickName" autofocus="autofocus">
 		                </li>
 		                <li id="user_Follow">
-		                    <p id="followers">∆»∑Œøˆ </p>
-		                    <p id="following">∆»∑Œ¿Æ</p>
+		                    <p id="followers">ÌåîÎ°úÏõå </p>
+		                    <p id="following">ÌåîÎ°úÏúô</p>
 		                </li>
 		                <li id ="user_Introduction">
 		                    <input type="text" id="input_Introduction">
 		                </li>
 		            </ul>
-		            <input type= "submit" value="ºˆ¡§«œ±‚">
+		            <input type= "submit" value="ÏàòÏ†ïÌïòÍ∏∞">
 	            </form>
 	        </main>
         </li>
